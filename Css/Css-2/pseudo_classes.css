@@ -1,0 +1,64 @@
+/* Pseudo Classes
+
+:active -> Quando o elemento está ativo, ou seja, está sendo pressionado - (so será ativado quendo o elemento for ativado).
+
+:visited -> Seleciona o link que foi visitado -  deixa marcado como se ja tivesse sido clicado, sido visitado.
+
+:hover -> quando o mouse passa em cima do elemento, acontece algo
+
+:checked ->usado em radio / checkbox / select.
+
+:disabled -> Elemento desabilitado / button / input - (so será feito caso no html o input receba a atributo "disabled" no html).
+
+:focus -> É aplicado quando um elemento recebe foco, o que pode ocorrer quando o usuário seleciona o elemento. (Ex.: quando clico em uma caixa de input para escrever um texto ou alguma informação)
+    *- "outline: none;" - > Por padão o google ja põe um foco, nas laterais do input, e essa propriedade, "outline" permite estiliza-la, e "none" desativa o outline padrão do google
+
+:read-only -> Seleciona input ou textarea que são apenas leitura, e me permite estiliza-lo (é bom para tornar visivel inputs que forem apenas de leitura)
+    *- readonly é colocado no input do html, e fica apenas como modo de leitura, não é permitido escrever ou fazer alguma ação nele
+
+:empty -> elemento que não tem filho (nem elementos, nem texto, nem espaços em branco).
+
+
+:first-child -> primeiro filho / ex.: primeira li de uma ul / primeiro span de uma div - eu escolho estilizar apenas o 1º.
+
+:last-child -> Estiliza o ultimo filho.
+
+:first-of-type -> Primeiro elemento de seu tipo entre os filhos de elemento pai. (Ex.: tem três span dentro de um PAI, ele vai estilizar o primeiro span que encontrar)
+
+:last-of-type -> Último elemento de seu tipo entre os filhos de seu elemento PAI
+
+:not() -> estiliza os elementos, exceto o que está dentro do ().
+
+:nth-child() -> Seleciona o elemento baseado na sua posição. Ex.: :nth-child(3) - logo, so irei estilizar o 3º filho/elemento.
+
+:nth-last-child() -> Seleciona o elemento baseado na sua posição, contando de trás para frente. 
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li:nth-last-child(1){
+    color: red;
+}
+
+/*span:last-of-type{
+    color: red;
+}
+
+p:last-of-type{
+    color: red;
+}*/
+
+.container :not(.excluido){
+    color:red;
+}
+
+
+
+
+

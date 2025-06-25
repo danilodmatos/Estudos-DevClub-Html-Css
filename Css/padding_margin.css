@@ -1,0 +1,29 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background: rgb(255, 6, 243);
+    /*padding: 60px; /*Manipula o espaço interno*/
+    margin: 20px;
+}
+
+.box-2{
+    height: 50px;
+    width: 50px;
+    background: rgba(105, 63, 255, 0.692);
+    margin: 50px; /*Espaçamento externo*/
+    padding: 30px;
+
+    padding: 10px 50px 30px 5px; /*Atalho do relogio - 1º em cima, 2º direita, 3º baixo, 4º esquerda*/
+          /*12h  15h  18h  21h            */
+
+
+    padding: 10px 50px 30px; /*2º atalho - 1º Em cima, 2º direita e esquerda, 3º Em baixo*/
+
+    padding: 10px 50px; /*1º Em cima e baixo, 2º esquerda e direita*/
+}
+/*O PADDING faz crescer o item, o MARGIN coloca para longe os outros itens]
+
+Padding: Interno
+Margin: Externo
+*/
+

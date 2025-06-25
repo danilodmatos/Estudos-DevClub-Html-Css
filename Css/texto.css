@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); /*Aqui está importando direto no css, logo, não precisa por as linhas de codigo no head do html*/
+
+h1{
+    color: red;
+    font-size: 64px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100; /* "bold" é um atalho, ele vai pegar a maior espessura e colocar*/
+                       /* "bolder" em CSS define o peso da fonte como mais negrito que o elemento pai.
+                        Se o pai tiver peso menor que 700 → o filho terá peso 700.
+                        Se o pai tiver peso maior que 700 → o filho terá o peso mais alto disponível (geralmente 900).*/
+                        /* "ligther" deixa o texto bem fininho*/
+    text-shadow: 10px 10px 3px red; /*text_sahdow põe sombra no texto - 
+    1º parametro(10px): diz o valor de sombra na horizontal,
+    2º parametro(10px): valor da sombra na vertical
+    3º parametro (10px): quão esfumaçada vai ser a sombra, se mais esfumaçada ou mais solida
+    4º parametro(red): cor da sombra*/
+}
+
+p{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif; /*A família da letra; 1º coloca a fonte (Roboto), 2º coloca "sans-serif", caso haja algum problema para carregar a font primaria, ele irá carregar alguma font da família*/
+    font-style: italic; /*italic, oblique, normal*/ 
+    line-height: 50px; /*Altura(espaçamento) das linhas*/
+    letter-spacing: 50px; /*O espaçamento entre as letras*/
+    word-spacing: 50px; /*Espaçamento entre as palavras*/
+    text-align:center; /*Organiza o allinhamento do texto - center: centraliza; right: Joga tudo para a direita; justify: Justifica o texto...*/
+    text-transform: uppercase; /*Transforma o texto, 
+    uppercase: põe tudo em maiúsculo; 
+    lowercase: tudo fica em minúsculo; 
+    capitalize: somente a primeira letras das palavras ficam am maiúsculo*/
+    text-decoration: line-through; /*Decoração do texto - 
+    underline: põe underline no texto; 
+    overline: coloca uma linha acima, tipo um underline reverso, 
+    line-throught: passa uma linha cortada em cima da palavra*/
+
+}
+
+
+
+

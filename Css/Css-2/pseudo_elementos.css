@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*input{
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder{
+    color: rgb(255, 21, 204);
+} /*O pseudo-elemento "placeholder" me permite estilizar o meu placeholder*/
+
+/*p{
+    color: blue;
+}
+
+p::first-line{
+    color: red;
+}
+/*::first-letter -> Estiliza a 1º letra do parágrafo*/
+/*::first-line -> Estiliza a cor da primeira linha*/
+
+a{
+    color: blue;
+}
+
+a::before{
+    content: "🥅";
+}
+/*::after -> Me permite estilizar algo através de "content" depois do meu elemento*/
+a::after{
+    content: "⚽";
+}
+/*::brefore -> Me permite estilizar algo através de "content" antes do meu elemento*/

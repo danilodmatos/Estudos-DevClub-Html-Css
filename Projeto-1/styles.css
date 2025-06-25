@@ -1,0 +1,129 @@
+*{
+     font-family: "Montserrat", sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+
+header{
+    margin: 44px 0 40px 76px;
+}
+
+.link-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-login{
+    width: 100px;
+    height: 41px;
+    border-radius: 50px;
+    color: #ffffff;
+    background: #665ae1;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.img-logo{
+    width: 468px;
+    height: 400px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2{
+    font-weight: 500; 
+    font-size: 38px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin: 30px 0 40px ;
+}
+
+.button-header{
+    border-radius: 30px;
+    border: none;
+    background: #adff00;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #000000;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    section{
+        margin-left: 80px;
+    }
+
+    header{
+        display: none;
+    }
+
+    p{
+        display: none;
+    }
+
+    .img-logo{
+        width: 354px;
+        height: 317px;
+        margin: 160px 30px 40px 30px;
+    }
+
+    h1{
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 22px;
+    
+    }
+
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .button-header{
+        margin-left: 10px;
+        width: 229px; 
+        height: 60px;
+        font-size: 28px;
+    }
+}
+

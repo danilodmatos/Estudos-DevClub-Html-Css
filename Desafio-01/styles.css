@@ -1,0 +1,133 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    margin: 47px 0 70px 42px;
+}
+
+.menu-header{
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #17233d;
+    cursor: pointer;
+}
+
+.button-header{
+    width: 80px;
+    height: 36px;
+    background: #6fbf44;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+img{
+    width: 495px;
+    height: 400px;
+    margin-left: 120px;
+}
+
+section{
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 82px;
+    color: #161a49;
+    line-height: 60px;
+}
+
+p{
+    width: 493px;
+    height: 99px;  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px; 
+    color: #4b505a;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 40px 0 50px;
+}
+
+.button-section{
+    font-weight: 500;
+    font-size: 12px;
+    color: #6fbf44;;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        background-color: #ffffff;
+        
+    }
+
+    section{
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-header{
+        display: none;
+    }
+
+    .button-header{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 280px;
+        top: -35px;
+
+    }
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 19px;
+        width: 304px;
+        height: 165px;
+        margin: 30px 0 40px;
+    }
+
+    .button-section{
+        font-size: 18px;
+        margin-left: 100px;
+    }
+
+    img{
+        width: 312px;
+        height: 288px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 490px;
+        left: 48px;
+    }
+
+    section{
+        position: relative;
+        left: 58px;
+        top: -40px;
+    }
+
+
+    
+}

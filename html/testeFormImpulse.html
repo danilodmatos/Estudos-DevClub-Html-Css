@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição Escola Impulse 2025</title>
+</head>
+
+<body>
+    <h1>Formulário de Pré inscrição Escola Impusle 2025</h1>
+    <div>
+        <label for="nome">Nome Completo: </label>
+        <input id="nome" type="text" placeholder="Digite seu nome">
+        <br> <br>
+        <label for="data_nascimento">Data de nascimento: </label>
+        <input id="data_nascimento" type="date">
+        <br> <br>
+        <span>Sexo:</span><br>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="sexo" value="feminino"> Feminino
+        <br><br>
+         
+        <span>Estado Civil:</span><br>
+        <input type="radio" id="solteiro" name="estado_civil" value="solteiro">
+        <label for="solteiro">Solteiro</label><br>   
+        <input type="radio" id="casado" name="estado_civil" value="casado">
+        <label for="casado">Casado</label><br>
+        <input type="radio" id="viuvo" name="estado_civil" value="viuvo">
+        <label for="viuvo">Viuvo</label><br><br>
+
+        <!--✅ Dica:
+        Sempre use:
+        type="radio"
+        name="igual para todos do grupo"
+        value="valor que será enviado"
+        id e for (ou input dentro do label)-->
+
+        <label for="cpf">CPF: </label>
+        <input type="text" id="cpf" naem="cpf" placeholder="Digite seu cpf" maxlength="14">
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="Digite seu Email:">
+        <br><br>
+
+        <label for="celular">Celular: </label>
+        <input type="tel" name="celular" id="celular" placeholder="(99) 99999-9999">
+        <br><br>
+
+        <span>Escolaridade: </span><br>
+        <input type="radio" id="fundamental_incompleto" name="escolaridade" value="fundamental incompleto">
+        <label for="fundamental_incompleto">Fundamental Incompleto</label><br>
+        <input type="radio" id="fundamental_completo" name="escolaridade" value="fundamental completo">
+        <label for="fundamental_completo">Fundamental Completo</label><br>
+        <input type="radio" id="medio_incompleto" name="escolaridade" value="medio incompleto">
+        <label for="medio_incompleto">Médio Incompleto</label><br>
+        <input type="radio" id="medio_completo" name="escolaridade" value="medio completo">
+        <label for="medio_completo">Médio Completo</label><br>
+        <input type="radio" id="superior_incompleto" name="escolaridade" value="superior incompleto">
+        <label for="superior_incompleto">Superior Incompleto</label><br>
+        <input type="radio" id="superior_completo" name="escolaridade" value="superior completo">
+        <label for="superior_completo">Superior Completo</label><br><br>
+
+        <label for="cidade">Digite sua cidade e estado: </label>
+        <input type="text" name="cidade_estado" id="cidade" placeholder="Ex.: Imperatriz/MA">
+        <br><br>
+
+        <label for="igreja">Digite o nome da sua igreja: </label>
+        <input type="text" name="igreja" id="igreja" placeholder="Ex.: igreja esperança">
+        <br><br>
+
+        <span>Tem Doença? </span><br>
+        <input type="radio" id="sim_doenca" name="doenca" value="sim">
+        <label for="sim_doenca">Sim</label><br>
+        <input type="radio" id="nao_doenca" name="doenca" value="nao">
+        <label for="nao_doenca">Não</label><br>
+        <label for="se_sim_doenca">Se sim, qual doença?</label>
+        <input type="text" name="qual_doenca" id="se_sim_doenca">
+        <br><br>
+
+        <span>Toma medicamento? </span><br>
+        <input type="radio" id="sim_medicamento" name="medicamento" value="sim">
+        <label for="sim_medicamento">Sim</label><br>
+        <input type="radio" id="nao_medicamento" name="medicamento" value="nao">
+        <label for="nao_medicamento">Não</label><br>
+        <label for="se_sim_medicamento">Se sim, qual medicamento?</label>
+        <input type="text" name="qual_medicamento" id="se_sim_medicamento">
+        <br><br>
+
+        <span>Tem alguma restrição alimentar? </span><br>
+        <input type="radio" id="sim_restricao" name="restricao_alimentar" value="sim">
+        <label for="sim_restricao">Sim</label><br>
+        <input type="radio" id="nao_restricao" name="restricao_alimentar" value="nao">
+        <label for="nao_restricao">Não</label><br>
+        <label for="se_sim_restricao">Se sim, qual restrição alimentar?</label>
+        <input type="text" name="qual_restricao" id="se_sim_restricao">
+        
+        
+    </div>
+
+</body>
+
+</html>

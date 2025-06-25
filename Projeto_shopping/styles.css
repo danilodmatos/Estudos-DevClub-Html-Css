@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.wrapper{
+    height: 100vh; 
+    width: 100vw;
+} /*estou dizendo para ele ocupar toda a tela, tanto em altura quando em largura*/
+
+.container-left{
+    display: inline-block;
+    width: 65%;
+    position: relative;
+    top: 200px;
+    left: 140px;
+
+}
+
+h1{
+    font-weight: 400;
+    font-size: 50px; 
+    line-height: 60px;
+    color: #5d5d7d;
+    width: 368px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 48px;
+    width: 440px;
+    color: #5d5d7d;
+    text-align: justify;
+    opacity: 60%;
+    margin: 10px 0;
+}
+
+button{
+    width: 210px;
+    height: 50px;
+    border-radius: 32px;
+    border: none;
+    background-color: #9499ea;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+}
+ button:hover{
+    opacity: 80%;
+ }
+
+ button:active{
+    opacity: 50%;
+ }
+
+.container-right{
+    display: inline-block;
+    background-color: rgba(93, 93, 125,0.16);
+    height: 100vh;
+    width: 35%;
+    position: absolute;
+}
+
+header{
+    margin-top: 18px;
+    margin-left: 90px;
+}
+
+.link-header{
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #5d5d7d;
+    margin-right: 28px;
+}
+
+.link-header:nth-child(2){
+    opacity: 40%;
+}
+
+.link-header:hover{
+    opacity: 40%;
+}
+
+.link-header:active{
+    opacity: 80%;
+}
+
+img{
+    position: relative;
+    top: 60px;
+    right: 110px;
+    width: 365px;
+    height: 462px;
+}
+
+@media screen and (max-width: 768px) {
+  .container-left{
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    position: static;
+  }
+
+  .container-right{
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px 32px ;
+  }
+
+  img{
+    position: static;
+    max-width: 90%;
+  }
+
+  header{
+    display: none;
+  }
+
+  h1{
+    font-size: 36px;
+    line-height: 52px;
+    width: auto;
+    margin: 58px 50px 0px 50px;
+    text-align: center;
+  }
+
+  p{
+    margin: 15px 40px;
+    width: auto;
+    text-align: center;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  button{
+    display: block;
+    margin: 0 auto /*Para alinhar "auto" o elemento precisa ser "display:block"*/
+  }
+
+}

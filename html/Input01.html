@@ -1,0 +1,22 @@
+<!-- 1º aula de Input -->
+<label for="">
+    Rua:
+    <input 
+        autocomplete="street-address"
+        placeholder="Digite sua rua"
+        >
+</label>
+<!--ATRIBUTOS INPUT-->
+    <!-- autocomplete="": faz com quer ao clicar num site, e ele ja completa com informaçõs suas que foram cadastradas anteriormente; nesse campo posso por: street-address(endereço), email, name-->
+     <!-- street-address: endereço-->
+     <!-- disable: desabilita o input, fica visivel, porem o user não consegue usar-->
+     <!-- value: atribui um valor fixo para o input-->
+     <!--readonly: deixa apenas em formato de leitura(posso por o texto utilizando "value"), ficará desabilitado porém sem o cinza do disable-->
+     <!--placeholder: é um texto que aparece quando o input está vazio-->
+     <!-- O label serve para identificar ao google que aquele texto que escrevi faz referencia ao meu input, ex.: "Rua:"; agora o leitor de tela e o googel vão saber que ali é para se colocar "rua"-->
+    <!--autofocus: ao carregar a pagina ele ja foca no input, e ja deixa apto para ser preenchido, se colocar em varios input essa função, ele so foca em 1, por isso se quiser focar em um especifico, colocar diretamente nele-->
+
+<!-- Outra maneira de usar o label e input:-->
+
+<label for="rua">Rua:</label>
+<input id="rua" placeholder="Digite sua rua:" autofocus>

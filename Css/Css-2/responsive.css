@@ -1,0 +1,59 @@
+/*RESPONSIVIDADE
+
+-All: Para todos os dispositivos.
+-Braille: Para dispositivos táteis. (Para pessoas com def. visual)
+-Embossed: Para dispositivos que imprimem em braile.
+-Handheld: Para dispositivos portáteis, geralmente com telas pequenas e bandas limitadas
+-Print: para impressão de papel.
+-Projection: Para apresentações como PPS.
+*-Screen(O que mais vai aparecer): Para sintetizadores de voz. As CSS 2 tem uma especificação de CSS chamada Aural, onde podemos formatar a voz dos sintetizadores.
+Ex.: @media screen and {
+    ...
+}
+
+Orientação
+-portait -> altura maior que a largura (celular em pé)
+-landscape -> largura maior que a altura (celular deitado)
+
+Ex.:
+@media screen and (max-width: 600px) and (orientation: landscape){
+    div{
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+} -> ESTOU DIZENDO: aplicar o @media E a responsivivade screen E na direção do celular deitado, SE isso tudo for verdadeiro aplicar a sentença
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 700px;
+    width: 700px;
+    background: blue;
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape){
+    div{
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* A regra @media no CSS serve para fazer o site se adaptar a diferentes tamanhos de tela, como celular, tablet ou computador.
+
+   -> "max-width: 600px" significa que o estilo dentro desse bloco só será aplicado **se a tela tiver no máximo 600 pixels de largura**. Ou seja, funciona para telas pequenas, como celulares.
+
+   -> "min-width: 600px" (não usado no exemplo, mas importante saber) significa que o estilo será aplicado **somente se a tela tiver 600 pixels de largura ou mais**. Ou seja, funciona para telas maiores, como tablets ou computadores.
+
+   Isso é muito útil quando queremos deixar o site bonito e fácil de usar em qualquer tipo de dispositivo. Chamamos isso de **design responsivo**.
+*/
+
+

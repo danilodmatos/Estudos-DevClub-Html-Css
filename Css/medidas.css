@@ -1,0 +1,43 @@
+.vo{
+    font-size: 16px;
+}
+
+
+.pai{
+    width: 50vw;
+    height: 50vh;
+    background: red;
+    font-size: 2em;
+}
+
+.filho{
+    width: 50%;
+    height: 50%;
+    background: yellow;
+    font-size: 2rem;
+}
+
+/*
+UNIDADE DE MEDIDAS
+
+    ->ABSOLUTAS (as medias não muda quando essas medidas são usadas)
+        px (pixels) 1/100 polegadas; 0,254mm
+        in (inches/polegada)
+        cm // mm (centímetros ou milímetros)
+
+    ->RELATIVAS (Usado para fazer responsividade - celular)
+        * % -> Calcula o tamanho relativo ao elemento PAI (é bom para se adaptar dentro de um elemento PAI)
+
+        vw -> (View width) 1vw é 1% da largura da janela do navegador
+
+        vh -> (View heigth) 1vh é 1% da altura da janela do navegador
+            Obs.: SÃO EXCELENTES PARA TRABALHAR COM RESPONSIVIDADE
+
+        em (emphemeral unit - unidade transitória)-> É uma unidade relativa ao elemento PAI; 1em é igual ao tamanho da fonte atual do elemento. Isso significa que, se o elemento pai tiver uma fonte de 16px, 1em em um elemento filho será 16px, e 0.5 em = 8px
+
+        rem (root emphemeral unit - raiz unidade transitória) -> É uma unidade relativa ao elemento raiz, ou seja, o HTML ou o BODY, ou o primeiro elemento que estiver mais acima.
+
+
+
+
+*/

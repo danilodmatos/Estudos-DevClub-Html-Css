@@ -1,0 +1,58 @@
+.box{
+    background: #ff008c;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.box-2{
+    background: #ffef0a;
+    
+}
+
+.box-3{
+    background: #1381ff;
+
+}
+
+
+
+
+/*
+DISPLAY
+
+ - BLOCK
+ - INLINE
+ - INLINE-BLOCK
+
+ - GRID
+ - FLEX
+
+
+ -> BLOCK
+        Ja vem como padrão em: div, section, p, h1, h2, ul, li, article... (Ou seja, se eu não colocar nenhum "display" nesses, eles ja terão "display:block; " por padrão )
+
+        - Ocupa 100% da largura do elemnto pai
+        - Sempre ocupa toda a sua linha
+        - Altura definida de acordo com o conteudo
+        - Podemos definir height e width
+        - Podemos definir valores de margin
+
+ -> INLINE
+        Obs.: Em "display: inline;" não é possivel setar height e width(ele ingonra esses valores, como também: margin top e bottom), ele sempre vai se adaptar ao conteudo
+
+        Ja vem como padrão em: a, span, b, i...
+
+        - Elemento em linha
+        - Não permite alterar height e width
+        - Nãopodemos definir valores de margin top e bottom
+        - Ganha comportamento de uma palavra
+
+ -> INLINE-BLOCK
+
+        - Elementos em linha, porém com características do display Block
+        - Altura e largura podem ser alterados.
+
+*/
+

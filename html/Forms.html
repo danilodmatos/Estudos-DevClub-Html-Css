@@ -1,0 +1,32 @@
+<!-- FORMS
+      - Capturar dados de entrada
+      - Input -> Entrada
+
+      Action -> Define para qual url será enviado os dados, vazio envia para a mesma url
+        - GET
+        - POST
+ -->
+
+
+<form action="" method="get" enctype="multipart/form-data"> <!-- "action" vai dizer para onde vou enviar meus dados após minhas informações serem     submetidas
+                        "method" é o metodo que eu vou enviar esses dados
+                                -->
+    <h1>Digite seu endereço: </h1>
+    <label for="rua">Digite sua rua: </label>
+    <input type="text" id="rua" name="endereco" autocomplete="street-address">
+
+    <label for="numero">Digite o nº da sua casa: </label>
+    <input type="number" id="numero" name="numero" autocomplete="building">
+
+    <label for="arquivo">Foto: </label>
+    <input type="file" id="arquivo" name="arquivo" > <!--Quando eu uso o (type="file") eu preciso avisar no meu "form" que está indo um aquivo, nisso eu uso: enctype="multipart/form-data"-->
+
+    <button type="reset">Reset</button> <!--Esse botão do tipo:"reset" ele limpa todos os campos do formulario ja preenchido-->
+    <button type="submit">Enviar form</button>
+    <!-- O formulario tem um botão do tipo submit para que após ele ser clicado, vai pegar todos meus dados do form, E ENVIAR (submit = enviar)  -->
+
+</form>
+
+<!-- Quando utilizo O metodo "GET" eu envio essas informações pela URL; OU SEJA: o metodo "GET" é quando seu computador/celular se comunica com o servidor por meio da URL-->
+
+<!--metodo "POST": a grosso mod falando o metodo "post" envia os dados por debaixo dos panos, ou seja, ele envia escondido, logo, não ficará visível na URL - -->
